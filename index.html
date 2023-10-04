@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordion using CSS</title>
+    <link rel="stylesheet" href="<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">">
+  <link rel="stylesheet" href="style.css">
+  <style>
+     .fa-chevron-down {
+            font-size: 20px; /* Adjust the size as needed */
+            color: #555; /* Change the color to your preferred color */
+        }
+  </style>
+</head>
+<body>
+ <div class="accordion">
+    <div class="accordion-tab">
+        <input type="radio" id="toggle1" class="accordion-toggle" name="toggle">
+        <!-- <input type="checkbox" id="toggle1" class="accordion-toggle" name="toggle"> by this all open at same time-->
+        <label for="toggle1">Project 1 <i class="fa fa-chevron-down" aria-hidden="true"></i></label>
+        <div class="accordion-content">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia sapiente, hic deleniti adipisci explicabo quidem vero. Reprehenderit, id repudiandae necessitatibus omnis recusandae rerum dolorum iusto esse dolorem provident optio, magnam sed. Nihil ducimus odit facilis!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, fuga perferendis. Impedit voluptatem voluptatibus quasi quam ut, magnam odit nam id voluptas laborum aspernatur reprehenderit dolore commodi incidunt, sapiente qui!</p>
+        </div>
+    </div>
+    <div class="accordion-tab">
+        <!-- radio is used to open one accordino one tim -->
+         <input type="radio" id="toggle2" class="accordion-toggle" name="toggle">
+        <label for="toggle2">Project 2 <i class="fa fa-chevron-down" aria-hidden="true"></i></label>
+        <div class="accordion-content">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia sapiente, hic deleniti adipisci explicabo quidem vero. Reprehenderit, id repudiandae necessitatibus omnis recusandae rerum dolorum iusto esse dolorem provident optio, magnam sed. Nihil ducimus odit facilis!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, fuga perferendis. Impedit voluptatem voluptatibus quasi quam ut, magnam odit nam id voluptas laborum aspernatur reprehenderit dolore commodi incidunt, sapiente qui!</p>
+        </div>
+    </div>
+    <div class="accordion-tab">
+        <input type="radio" id="toggle3" class="accordion-toggle" name="toggle">
+        <label for="toggle3">Project 3 <i class="fa fa-chevron-down" aria-hidden="true"></i></label>
+        <div class="accordion-content">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia sapiente, hic deleniti adipisci explicabo quidem vero. Reprehenderit, id repudiandae necessitatibus omnis recusandae rerum dolorum iusto esse dolorem provident optio, magnam sed. Nihil ducimus odit facilis!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, fuga perferendis. Impedit voluptatem voluptatibus quasi quam ut, magnam odit nam id voluptas laborum aspernatur reprehenderit dolore commodi incidunt, sapiente qui!</p>
+        </div>
+    </div>
+    <div class="accordion-tab">
+        <input type="radio" id="toggle4" class="accordion-toggle" name="toggle">
+        <label for="toggle4">Project 4 <i class="fa fa-chevron-down" aria-hidden="true"></i></label>
+        <div class="accordion-content">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia sapiente, hic deleniti adipisci explicabo quidem vero. Reprehenderit, id repudiandae necessitatibus omnis recusandae rerum dolorum iusto esse dolorem provident optio, magnam sed. Nihil ducimus odit facilis!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, fuga perferendis. Impedit voluptatem voluptatibus quasi quam ut, magnam odit nam id voluptas laborum aspernatur reprehenderit dolore commodi incidunt, sapiente qui!</p>
+        </div>
+    </div>
+ </div>
+
+    
+</body>
+</html>
